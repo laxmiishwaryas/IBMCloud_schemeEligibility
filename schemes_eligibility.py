@@ -1,3 +1,4 @@
+#This code is used by the IBM cloud Watson Studio to train the model for finding out the eligibility of schemes for an individual
 import requests
 
 # NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account (https://au-syd.dai.cloud.ibm.com/docs/content/wsj/analyze-data/ml-authentication.html?context=cpdaas)
@@ -25,3 +26,4 @@ except ValueError:
     print(response_scoring.text)
 except Exception as e:
     print(f"An unexpected error occurred: {e}") 
+
